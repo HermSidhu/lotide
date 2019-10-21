@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@hermsidhu/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "recreating the lodash library for educational purposes.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/HermSidhu/lotide.git"
   },
-  "author": "",
+  "author": "Herm Sidhu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HermSidhu/lotide/issues"

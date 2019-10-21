@@ -24,13 +24,4 @@ const findKeyByValue = function(inputObject, value) {
 assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
 assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 
-// const findKeyByValue = function(inputObject, value) {
-//   const objectKeys = Object.keys(inputObject);
-//   for (const key of objectKeys) {
-//     if (inputObject[key] === value) {
-//       return key;
-//     }
-//   }
-// };
-
 module.exports = findKeyByValue;

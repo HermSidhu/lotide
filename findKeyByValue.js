@@ -32,3 +32,5 @@ assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 //     }
 //   }
 // };
+
+module.exports = findKeyByValue;

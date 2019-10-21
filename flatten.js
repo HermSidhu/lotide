@@ -36,3 +36,5 @@ const flatten = function(inputArray) {
   }
   return answerArray;
 };
+
+module.exports = flatten;

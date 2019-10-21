@@ -25,3 +25,5 @@ const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Re
 const results2 = takeUntil(data2, x => x === ',');
 
 console.log(results2);
+
+module.exports = takeUntil;

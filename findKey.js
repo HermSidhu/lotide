@@ -28,3 +28,5 @@ const findKey = function(object, callback) {
 let actual1 = findKey(findKeyData, x => x.stars === 2);
 let expected1 = "noma";
 assertEqual(actual1, expected1);
+
+module.exports = findKey;
